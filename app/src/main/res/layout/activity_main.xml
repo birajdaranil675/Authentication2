@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#aaff80"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Register"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textSize="45sp"
+        android:textColor=" #ff3333"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        android:hint="name"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="10dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="email"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="password"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="10dp"
+        />
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="contact"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/contact"
+        android:drawablePadding="10dp"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="city"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/contact"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:text="submit"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
